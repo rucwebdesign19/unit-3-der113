@@ -62,3 +62,23 @@ header a {
   text-decoration: none;
   color: black;
 }
+
+@media only screen and (max-width: 600px)
+{
+  .section-inner {
+    width: 75 vw;
+    max-width: 900px;
+    max-width: 50vw;
+  }
+}
+
+@media only screen and (max-width: 900px)
+{
+  .section-inner {
+    width: 50vw;
+    max-width: 50vw;
+  }
+}
+section {
+  height: 75vh;
+}
