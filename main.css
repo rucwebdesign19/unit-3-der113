@@ -42,8 +42,14 @@ section {
 }
 
 .logo-img {
-  width: 300px;
-  border-radius: 50%;
+  width: 100%;
+  max-width: 50%;
+  height: auto;
+}
+.founders-img {
+  width: 100%;
+  max-width: 50%;
+  height: auto;
 }
 
 h1 {
